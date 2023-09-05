@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(54, 123, 228);
+}
+.top{
+    height: 190px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top .logo{
+    height: 120px;
+    width: 120px;
+}
+.top .logo img{
+    width: 100%;
+    height: 100%;
+}
+.absolute{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+.top .boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 150px;
+}
+.top .boxes > div{
+    width: 20%;
+    height: 65%;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.top .boxes > div a{
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 19px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top .boxes > div:hover{
+    transition: 1s;
+    background-color: aqua;
+    color: white;
+    font-weight: bolder;
+    transform: scale(1);
+}
+.top .boxes > div a:hover{
+    background-color: white;
+    color: blue;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: aquamarine;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 19px;
+}
+a:hover{
+    background-color: white;
+    color: blue;
+}
+
+
+.text{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .text > div{
+    height: 70%;
+    width: 21%;
+    margin: 5px;
+    padding: 10px;
+
+ }
+.unmat{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.unmat img{
+    border-radius: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.unmat > div{
+    width: 80%;
+    height: 100%;   
+    flex-wrap: wrap;
+}
+.brand{
+    height: 170px;
+    width: 100%;
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand h1{
+    z-index: 1;
+    color: white;
+    text-align: center;
+    font-size: 89px;
+    font-weight: bolder;
+}
+.brand2{
+    height: 750px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.brand2 h1{
+    text-align: center;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    font-size: 89px;
+    font-weight: bolder;
+}
+.bg{
+    height: 60%;
+    width: 60%;
+    box-shadow: 7px 7px 10px white;
+    position: absolute;
+}
+.bg img{
+    height: 100%;
+    width: 100%;
+}
+.unmat > div > div{
+    height: 40%;
+    width: 25%;
+    margin: 15px;
+}
+.fot{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fot > div{
+    width: 80%;
+    height: 70%;   
+    flex-wrap: wrap;
+}
+.fot > div > div{
+    height: 80%;
+    width: 20%;
+    margin: 15px;
+}
+footer{
+    flex-direction: column;
+}
+.flex h3{
+    font-weight: bold;
+    margin: 5px;
+}
